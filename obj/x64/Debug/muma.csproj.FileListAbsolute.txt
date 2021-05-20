@@ -1,0 +1,2 @@
+Z:\hw_src\csload.net\obj\x64\Debug\muma.csprojAssemblyReference.cache
+Z:\hw_src\csload.net\obj\x64\Debug\muma.csproj.CoreCompileInputs.cache
